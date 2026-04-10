@@ -1,0 +1,16 @@
+{
+  "name": "web-bazi-analyzer",
+  "version": "1.0.0",
+  "description": "八字天赋与性格分析系统 - Cloudflare Workers 版本",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy",
+    "setup-db": "npx wrangler d1 create bazi-records"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
